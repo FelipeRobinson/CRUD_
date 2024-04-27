@@ -72,7 +72,7 @@ def ondeEsta (nom,agd):
             return [True,meio]
         elif nom.upper()<agd[meio][0].upper():
             final=meio-1
-        else: # nom.upper()>agd[meio][0].upper()
+        else:
             inicio=meio+1
             
     return [False,inicio]
