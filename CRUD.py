@@ -103,9 +103,9 @@ def incluir (agd):
     print('Cadastro realizado com sucesso!')
 
 def procurar (agd):
-    resposta=procuraContinua(agd)
-    achou   = resposta[0]
-    posicao = resposta[1]
+    resposta = procuraContinua(agd)
+    achou    =  resposta[0]
+    posicao  =  resposta[1]
     
     if achou==True:
         print('Aniversario:',agd[posicao][1])
